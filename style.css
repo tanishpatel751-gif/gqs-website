@@ -85,3 +85,60 @@ footer {
   background-color: #111;
   color: white;
 }
+
+
+/* ===== PRODUCT CAROUSEL ===== */
+
+.carousel-section {
+  text-align: center;
+  padding: 40px 0;
+  background: #fafafa;
+}
+
+.carousel-section h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.carousel-container {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.4s ease;
+}
+
+.carousel-item {
+  min-width: 250px;
+  margin: 0 15px;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.carousel-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.carousel-btn {
+  background: #111;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+  z-index: 10;
+}
+
+.carousel-btn:hover {
+  background: #00c3ff;
+}
