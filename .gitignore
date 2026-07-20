@@ -1,0 +1,16 @@
+# --- Python / Flask ---
+venv/               # Virtual environment folder
+__pycache__/        # Python bytecode
+*.py[cod]           # Compiled Python files
+instance/           # Flask instance folder (often contains local DBs/configs)
+.env                # Local secret environment variables (API keys)
+*.db                # SQLite databases (if using local dev DB)
+
+# --- JavaScript / Web ---
+node_modules/       # Only if using npm packages
+dist/               # Build folders (if you ever add a JS bundler later)
+
+# --- IDEs / Editors ---
+.vscode/            # VS Code workspace settings
+.idea/              # PyCharm/IntelliJ settings
+*.log               # Error logs

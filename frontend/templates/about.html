@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GQS | About Us</title>
+  <link rel="icon" type="image/png" href="{{ url_for('static', filename='gqs_images/favicon.png')}}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <!-- HEADER / NAVIGATION -->
+    <header>
+        <h1>GQS|</h1>
+    <img src="{{ url_for('static', filename='gqs_images/Companylogo.png') }}" alt="GQS Logo" id="logo" height="30px">
+    <nav>
+        <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+        </nav>
+    </header>
+    
+    <!-- ABOUT SECTION -->
+    <section id="about-section">
+        <h2>About GQS</h2>
+        <p>Welcome to GQS, your trusted partner for quality dropshipping products. We are dedicated to providing modern goods that meet the highest standards of quality and reliability.</p>
+        <p>Our mission is to empower entrepreneurs and businesses by offering a seamless dropshipping experience, ensuring fast delivery and exceptional customer service.</p>
+        <p>At GQS, we believe in building long-term relationships with our clients, helping them succeed in the competitive e-commerce landscape.</p>
+    <h1>How did we start?</h1>
+    <p> We are just two teenagers trying to make it big with our business empire. Code to custom is just one part of our ever expanding business, specifically the technology dropshipping part. You can trust our stuff because it has been checked and tested thoroughly.</p>
+    </section>
+    
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 GQS. All rights reserved.</p>
+    </footer>
+    
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</html>
